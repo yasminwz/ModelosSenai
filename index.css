@@ -45,32 +45,16 @@ header {
     align-items: center;
 }
 
-.conteudo-principal .titulo-principal{
-    font-size: 80px;
-    letter-spacing: 0.4rem;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.conteudo-principal .sobre{
-    font-size: 40px;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.conteudo-menu .itens-menu {
+.form{
+    height: 93vh;
     display: flex;
-    list-style: none;
-    gap: 10px;
- 
+    justify-content: center;
+    align-items: center;
+
 }
 
-.conteudo-menu .itens-menu a {
-    text-decoration: none;
-    color: white;
-    padding: 1.5rem;
+body{
+
 }
 
 .botoes{
@@ -78,7 +62,8 @@ header {
     justify-content: center;
     gap: 20px;
 }
-.botoes button{
+
+.button{
     width: 250px;
     height: 60px;
     cursor: pointer;
