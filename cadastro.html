@@ -1,58 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/e327efa3e0.js" crossorigin="anonymous"></script>
     <title>Cadastro</title>
 </head>
-<header>
-    <div class="conteudo-menu">
-        <h1 class="titulo">SenaiModels</h1>
-        <ul class="itens-menu">
-            <li><a href="index.html">Início</a></li>
-            <li><a href="solicitar.html">Solicite um modelo</a></li>
-            <li><a href="mapa.html">Encontre o Senai</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="cadastro.html">Cadastre-se</a></li>
-            <li><a href="contato.html">Contatos</a></li>
-            <li><i class="fa-brands fa-facebook"></i></li>
-            <li><i class="fa-brands fa-instagram-square"></i></li>
-        </ul>
-    </div>
-</header>
-<body>
-    <fieldset>
-        <form class ="form">
-            <h1>Cadastre-se</h1>
-            <label for="nome">Digite seu nome: </label>
-            <button class= "button" type="text" name="Nome"><br>
-            <label for="email">Digite seu email: </label>
-            <button class= "button" type="text" name="Email"><br>
-            <label for="cidade">Cidade</label>
-            <button class= "button" type="text" name="senha"><br>
-            <select class="opcoes">
-                <option value="curitiba">Curitiba</option>
-                <option value="são paulo">São Paulo</option>
-                <option value="santa catarina">Santa Catarina</option>
-                <option value="Rio de Janeiro">Rio de Janeiro</option>
-                <option value="outras">Outras digite abaixo</option>
-            </select><br>
-            <label for="telefone">Digite seu telefone: </label>
-            <button class= "button" name="Nome"><br>
-            <label for="senha">Senha: </label>
-            <button class= "button" name="senha"><br>
-            <button class= "button">Enviar dados</button>
-            <button class= "button" type="reset">Limpar</button>
-    </fieldset>
-    </form>
+<body id = "background-body">
+    <header id="header">
+        <a id="logo" href="">SENAIMODELS</a>
+        <nav id="nav">
+            <ul id="menu" role="menu">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./cadastro.html">Cadastro</a></li>
+                <li><a href="./mapa.html">Nos Encontre</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <div style="margin: 25vh auto; max-width: 500px;">
+    <h1>Cadastre-se</h1>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+    <br><label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Digite seu email">
+    <br><label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+    <br><label for="cidade">Cidade:</label>
+    <select class="opcoes">
+        <option value="curitiba">Curitiba</option>
+        <option value="são paulo">São Paulo</option>
+        <option value="santa catarina">Santa Catarina</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+    </select><br>
+    <label for="telefone">Telefone:</label>
+    <input type="text" name="telefon" id="senha" placeholder="Telefone">
+    <br><button class="btn btn-light" type="submit">Enviar dados</button>
+    <button class="btn btn-light" type="reset">Limpar</button>
+</div>
 </body>
 </html>
-    <footer>
-        <label>2022,Curitiba</label>
-    </footer>
+<footer>
+    <label>2022,Curitiba</label>
+</footer>
 </body>
 
 </html>

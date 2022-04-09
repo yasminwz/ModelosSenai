@@ -5,45 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
     <title>Modelos Senai</title>
 </head>
-
-<body>
-    <header>
-        <div class="conteudo-menu">
-            <h1 class="titulo">SenaiModels</h1>
-            <ul class="itens-menu">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="solicitar.html">Solicite um modelo</a></li>
-                <li><a href="mapa.html">Encontre o Senai</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="cadastro.html">Cadastre-se</a></li>
-                <li><a href="contato.html">Contatos</a></li>
-            </ul>
+<body id="index-body">
+<header id="header">
+    <a id="logo" href="">SENAIMODELS</a>
+    <nav id="nav">
+        <ul id="menu" role="menu">
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./cadastro.html">Cadastro</a></li>
+            <li><a href="./mapa.html">Nos Encontre</a></li>
+        </ul>
         </div>
-    </header>
-    <main>
-        <div class="conteudo-principal">
-            <h1 class="titulo-principal">Contrate Nossos Modelos</h1>
-            <div class="sobre">
-                <label for="">
-                    Nossos modelos do Senai são profissionais com experiências incríveis de mercado e de quebra ainda
-                    sabem programar
-                </label>
-            </div>
-            <div class="botoes">
-                <a href="cadastro.html">
-                    <button>Se cadastre</button>
-                </a>
-                <a href="solicitar.html">
-                    <button>Contratar</button>
-                </a>
-            </div>
+    </nav>
+</header>
+<main>
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Contrate Nossos Modelos</h5>
+          <p class="card-text"> Nossos modelos do Senai são profissionais com experiências incríveis de mercado e de quebra ainda
+            sabem programar</p>
+          <a href="cadastro.html" class="btn btn-light">Se Cadastre</a>
+          <a href="solicitar.html" class="btn btn-light">Contratar</a>
         </div>
-    </main>
-    <footer>
-        <label for="">2022,Curitiba</label>
-    </footer>
+      </div>
+</main>
 </body>
+<footer>
+    <label>2022,Curitiba</label>
+</footer>
 </html>
